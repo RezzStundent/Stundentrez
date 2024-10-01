@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(brown-watercolor-leaf-background-aesthetic-autumn-season.jpg);
+  background-repeat: no-repeat;
+}
+
+header{
+  background-color: #FFF0D1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 30000;
+  height: 10%;
+  border: 3px solid #795757;
+
+  font-family:  "Playwrite DE Grund", sans-serif;
+ font-style: normal;
+ font-family: 200;
+}
+
+main{
+  margin-top: 90px;
+  margin-left: 55%;
+  background-color: #FFDBB5;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+text-align: center;
+  border: 5px double #3B3030 ;
+}
+
+.html {
+  display: inline-block;
+  position: relative; /* Keep this for relative positioning */
+
+}
+
+.html img {
+  width: 200px;
+  position: relative; /* Keep it relative */
+  top: -520px; /* Adjust to move the image up */
+  z-index: 1; /* Ensure the image appears above the background */
+}
+
+.css{
+    display: inline-block;
+  position: relative; /* Keep this for relative positioning */
+}
+
+.css img{
+    width: 200px;
+  position: relative; /* Keep it relative */
+  top: -520px; /* Adjust to move the image up */
+  z-index: 1; /* Ensure the image appears above the background */
+}
+
+.js{
+  display: inline-block;
+  position: relative;
+}
+
+.js img{
+  width: 200px;
+  position: relative;
+  top: -260px;
+  left: -315px;
+}
+
+main h2 {
+    animation: blink 1s infinite;
+    outline: 1px solid #3B3030; /* Ganti warna sesuai kebutuhan */
+    outline-offset: 4px; /* Jarak outline dari teks */
+    text-shadow: 1px 1px 2px black; /* Efek bayangan teks */
+}
+
+
+
+
+
+@keyframes blink {
+    0% {
+        color: #FFF0D1;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: white;
+    }
+}
+
+main p{
+font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF0D1;
+  padding-top: 20px;
+  text-shadow: 2px 2px 2px black; /* Efek bayangan teks */
+}
+
+main p span{
+  color: yellow;
+}
+
+.go{
+  background-color: #FFF0D1;
+  height: 130px;
+  border: 3px solid #795757;
+}
+
+.go a {
+  font-family: 'Bebas Neue';
+  display: inline-block;
+  margin-left: 43%;
+  margin-top: 20px;
+  text-decoration: none; /* Menghilangkan underline */
+  font-size: 20px;
+  background-color: #795757;
+  color: yellow;
+  background-size: 100%;
+  padding: 10px 25px; /* Menambahkan padding */
+  border-radius: 15px; /* Jika ingin sudut yang lebih halus */
+}
+
+.go a:hover {
+  transform: scale(0.9); /* Mengurangi ukuran menjadi 90% saat di-hover */
+  transition: transform 0.3s ease; /* Menambahkan efek transisi halus */
+  color: #795757;
+  transition: color 0.3s ease;
+  background-color: white;
+  transition: background-color 0,3s ease-in-out;
+}
+

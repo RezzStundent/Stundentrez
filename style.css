@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-image: url(yui.jpg);
+ background-repeat: no-repeat;
+  
+}
+.nav {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: #219C90;
+    overflow: hidden;
+    padding: 20px; /* Add some padding for spacing */
+    position: fixed;
+    z-index: 5000000;
+    top: 0px; /* Adjust this value to move it higher */
+    right: 0px;
+    left: 0px;
+}
+
+.nav h1 {
+    font-size: 40px;
+    margin: 0; /* Remove default margin */
+    color: #FFC700;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /* Reset padding */
+}
+
+.nav ul li {
+    float: right;
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav ul li a:hover {
+    background-color: #FFF455;
+    color: black;
+}
+
+.isi {
+
+  padding-top: 200px;
+  font-size: 40px;
+  color: #F29727;
+    text-shadow: 4px 4px 0 #FFF455, -1px -1px 0 #FFF455
+   
+               
+}
+
+.isi h2{
+  color: #FFF455;
+  text-shadow: 3px 3px 0#F29727,-1px -1px 0 #F29727
+}
+
+.paragraf{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF5E4;
+}
+
+.link a {
+  text-decoration: none;
+  margin-left: 46%;
+  position: relative;
+  top: 40px;
+  color: white;
+  background-color: #219C90;
+  border: 3px solid white;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Tambahkan transisi */
+}
+
+.link a:hover {
+  color: yellow;
+  background-color: #1A7B75; /* Ubah warna latar belakang saat hover */
+}
+
+.link a:active {
+  transform: scale(0.95); /* Efek memperkecil saat diklik */
+  background-color: #1A7B75; /* Ubah warna latar belakang saat diklik */
+}
+
+.paragraf p span{
+  color: yellow;
+}
